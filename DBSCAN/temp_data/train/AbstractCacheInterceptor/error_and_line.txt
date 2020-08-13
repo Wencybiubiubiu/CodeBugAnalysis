@@ -1,0 +1,26 @@
+error: package org.apache.commons.logging does not exist
+error: package org.apache.commons.logging does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: package org.springframework.util does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: reference to + is ambiguous
+error: cannot find symbol
+java:23: error: package org.apache.commons.logging does not exist
+java:24: error: package org.apache.commons.logging does not exist
+java:27: error: cannot find symbol
+java:28: error: cannot find symbol
+java:31: error: package org.springframework.util does not exist
+java:41: error: cannot find symbol
+java:40: error: cannot find symbol
+java:43: error: cannot find symbol
+java:46: error: cannot find symbol
+java:43: error: cannot find symbol
+java:43: error: cannot find symbol
+java:64: error: reference to + is ambiguous
+java:75: error: cannot find symbol

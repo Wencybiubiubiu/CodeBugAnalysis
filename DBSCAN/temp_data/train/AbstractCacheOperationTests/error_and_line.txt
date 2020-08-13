@@ -1,0 +1,38 @@
+error: package javax.cache.annotation does not exist
+error: package javax.cache.annotation does not exist
+error: package org.junit does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: package org.springframework.util does not exist
+error: package org.springframework.util does not exist
+error: package org.junit does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+java:21: error: package javax.cache.annotation does not exist
+java:22: error: package javax.cache.annotation does not exist
+java:24: error: package org.junit does not exist
+java:26: error: cannot find symbol
+java:27: error: cannot find symbol
+java:28: error: package org.springframework.util does not exist
+java:29: error: package org.springframework.util does not exist
+java:31: error: package org.junit does not exist
+java:36: error: cannot find symbol
+java:36: error: cannot find symbol
+java:38: error: cannot find symbol
+java:55: error: cannot find symbol
+java:62: error: cannot find symbol
+java:43: error: cannot find symbol
+java:38: error: cannot find symbol
+java:65: error: cannot find symbol
+java:66: error: cannot find symbol
+java:68: error: cannot find symbol
+java:72: error: cannot find symbol

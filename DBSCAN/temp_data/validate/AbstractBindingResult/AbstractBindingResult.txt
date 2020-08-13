@@ -1,0 +1,466 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.23c204'
+*** Output:
+[parsing started RegularFileObject[process_pre/test/spring-framework/AbstractBindingResult.java]]
+[parsing completed 42ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/nashorn.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jaccess.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/MRJToolkit.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/beans/PropertyEditor.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashMap.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedList.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class)]]
+process_pre/test/spring-framework/AbstractBindingResult.java:29: error: cannot find symbol
+import org.springframework.beans.PropertyEditorRegistry;
+                                ^
+  symbol:   class PropertyEditorRegistry
+  location: package org.springframework.beans
+process_pre/test/spring-framework/AbstractBindingResult.java:30: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+process_pre/test/spring-framework/AbstractBindingResult.java:31: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+process_pre/test/spring-framework/AbstractBindingResult.java:32: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+process_pre/test/spring-framework/AbstractBindingResult.java:45: error: cannot find symbol
+public abstract class AbstractBindingResult extends AbstractErrors implements BindingResult, Serializable {
+                                                    ^
+  symbol: class AbstractErrors
+process_pre/test/spring-framework/AbstractBindingResult.java:45: error: cannot find symbol
+public abstract class AbstractBindingResult extends AbstractErrors implements BindingResult, Serializable {
+                                                                              ^
+  symbol: class BindingResult
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+process_pre/test/spring-framework/AbstractBindingResult.java:49: error: cannot find symbol
+	private MessageCodesResolver messageCodesResolver = new DefaultMessageCodesResolver();
+	        ^
+  symbol:   class MessageCodesResolver
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:51: error: cannot find symbol
+	private final List<ObjectError> errors = new LinkedList<ObjectError>();
+	                   ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:70: error: cannot find symbol
+	public void setMessageCodesResolver(MessageCodesResolver messageCodesResolver) {
+	                                    ^
+  symbol:   class MessageCodesResolver
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:78: error: cannot find symbol
+	public MessageCodesResolver getMessageCodesResolver() {
+	       ^
+  symbol:   class MessageCodesResolver
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:116: error: cannot find symbol
+	public void addError(ObjectError error) {
+	                     ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:121: error: cannot find symbol
+	public void addAllErrors(Errors errors) {
+	                         ^
+  symbol:   class Errors
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:152: error: cannot find symbol
+	public List<ObjectError> getAllErrors() {
+	            ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:157: error: cannot find symbol
+	public List<ObjectError> getGlobalErrors() {
+	            ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:168: error: cannot find symbol
+	public ObjectError getGlobalError() {
+	       ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:178: error: cannot find symbol
+	public List<FieldError> getFieldErrors() {
+	            ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:189: error: cannot find symbol
+	public FieldError getFieldError() {
+	       ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:199: error: cannot find symbol
+	public List<FieldError> getFieldErrors(String field) {
+	            ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:211: error: cannot find symbol
+	public FieldError getFieldError(String field) {
+	       ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class)]]
+process_pre/test/spring-framework/AbstractBindingResult.java:310: error: cannot find symbol
+	public PropertyEditorRegistry getPropertyEditorRegistry() {
+	       ^
+  symbol:   class PropertyEditorRegistry
+  location: class AbstractBindingResult
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class)]]
+[checking org.springframework.validation.AbstractBindingResult]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+process_pre/test/spring-framework/AbstractBindingResult.java:49: error: cannot find symbol
+	private MessageCodesResolver messageCodesResolver = new DefaultMessageCodesResolver();
+	                                                        ^
+  symbol:   class DefaultMessageCodesResolver
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:51: error: cannot find symbol
+	private final List<ObjectError> errors = new LinkedList<ObjectError>();
+	                                                        ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSequentialList.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+process_pre/test/spring-framework/AbstractBindingResult.java:71: error: cannot find symbol
+		Assert.notNull(messageCodesResolver, "MessageCodesResolver must not be null");
+		^
+  symbol:   variable Assert
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:87: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:93: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:95: error: cannot find symbol
+		addError(new ObjectError(getObjectName(), resolveMessageCodes(errorCode), errorArgs, defaultMessage));
+		             ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:98: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:100: error: cannot find symbol
+		if ("".equals(getNestedPath()) && !StringUtils.hasLength(field)) {
+		              ^
+  symbol:   method getNestedPath()
+  location: class AbstractBindingResult
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+process_pre/test/spring-framework/AbstractBindingResult.java:100: error: cannot find symbol
+		if ("".equals(getNestedPath()) && !StringUtils.hasLength(field)) {
+		                                   ^
+  symbol:   variable StringUtils
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:107: error: cannot find symbol
+		String fixedField = fixedField(field);
+		                    ^
+  symbol:   method fixedField(String)
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:109: error: cannot find symbol
+		FieldError fe = new FieldError(
+		^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:109: error: cannot find symbol
+		FieldError fe = new FieldError(
+		                    ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:115: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:120: error: method does not override or implement a method from a supertype
+	@Override
+	^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+process_pre/test/spring-framework/AbstractBindingResult.java:128: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:133: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:137: error: cannot find symbol
+				errorCode, getObjectName(), fixedField(field), fieldType);
+				                            ^
+  symbol:   method fixedField(String)
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:141: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:146: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:151: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:156: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:158: error: cannot find symbol
+		List<ObjectError> result = new LinkedList<ObjectError>();
+		     ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:158: error: cannot find symbol
+		List<ObjectError> result = new LinkedList<ObjectError>();
+		                                          ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:159: error: cannot find symbol
+		for (ObjectError objectError : this.errors) {
+		     ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:160: error: cannot find symbol
+			if (!(objectError instanceof FieldError)) {
+			                             ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:167: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:169: error: cannot find symbol
+		for (ObjectError objectError : this.errors) {
+		     ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:170: error: cannot find symbol
+			if (!(objectError instanceof FieldError)) {
+			                             ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:177: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:179: error: cannot find symbol
+		List<FieldError> result = new LinkedList<FieldError>();
+		     ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:179: error: cannot find symbol
+		List<FieldError> result = new LinkedList<FieldError>();
+		                                         ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:180: error: cannot find symbol
+		for (ObjectError objectError : this.errors) {
+		     ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:181: error: cannot find symbol
+			if (objectError instanceof FieldError) {
+			                           ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:182: error: cannot find symbol
+				result.add((FieldError) objectError);
+				            ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:188: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:190: error: cannot find symbol
+		for (ObjectError objectError : this.errors) {
+		     ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:191: error: cannot find symbol
+			if (objectError instanceof FieldError) {
+			                           ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:192: error: cannot find symbol
+				return (FieldError) objectError;
+				        ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:198: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:200: error: cannot find symbol
+		List<FieldError> result = new LinkedList<FieldError>();
+		     ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:200: error: cannot find symbol
+		List<FieldError> result = new LinkedList<FieldError>();
+		                                         ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:201: error: cannot find symbol
+		String fixedField = fixedField(field);
+		                    ^
+  symbol:   method fixedField(String)
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:202: error: cannot find symbol
+		for (ObjectError objectError : this.errors) {
+		     ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:203: error: cannot find symbol
+			if (objectError instanceof FieldError && isMatchingFieldError(fixedField, (FieldError) objectError)) {
+			                           ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:203: error: cannot find symbol
+			if (objectError instanceof FieldError && isMatchingFieldError(fixedField, (FieldError) objectError)) {
+			                                                                           ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:204: error: cannot find symbol
+				result.add((FieldError) objectError);
+				            ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:210: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:212: error: cannot find symbol
+		String fixedField = fixedField(field);
+		                    ^
+  symbol:   method fixedField(String)
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:213: error: cannot find symbol
+		for (ObjectError objectError : this.errors) {
+		     ^
+  symbol:   class ObjectError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:214: error: cannot find symbol
+			if (objectError instanceof FieldError) {
+			                           ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:215: error: cannot find symbol
+				FieldError fieldError = (FieldError) objectError;
+				^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:215: error: cannot find symbol
+				FieldError fieldError = (FieldError) objectError;
+				                         ^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:224: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:226: error: cannot find symbol
+		FieldError fieldError = getFieldError(field);
+		^
+  symbol:   class FieldError
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:229: error: cannot find symbol
+				getActualFieldValue(fixedField(field)));
+				                    ^
+  symbol:   method fixedField(String)
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:243: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:245: error: cannot find symbol
+		Object value = getActualFieldValue(fixedField(field));
+		                                   ^
+  symbol:   method fixedField(String)
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:271: error: method does not override or implement a method from a supertype
+	@Override
+	^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractMap.class)]]
+process_pre/test/spring-framework/AbstractBindingResult.java:277: error: cannot find symbol
+		model.put(MODEL_KEY_PREFIX + getObjectName(), this);
+		          ^
+  symbol:   variable MODEL_KEY_PREFIX
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:281: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:283: error: cannot find symbol
+		return getActualFieldValue(fixedField(field));
+		                           ^
+  symbol:   method fixedField(String)
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:291: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:293: error: cannot find symbol
+		PropertyEditorRegistry editorRegistry = getPropertyEditorRegistry();
+		^
+  symbol:   class PropertyEditorRegistry
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:299: error: cannot find symbol
+			return editorRegistry.findCustomEditor(valueTypeToUse, fixedField(field));
+			                                                       ^
+  symbol:   method fixedField(String)
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:309: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:320: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:331: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBindingResult.java:333: error: cannot find symbol
+		return StringUtils.toStringArray(this.suppressedFields);
+		       ^
+  symbol:   variable StringUtils
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:342: error: cannot find symbol
+		if (!(other instanceof BindingResult)) {
+		                       ^
+  symbol:   class BindingResult
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:345: error: cannot find symbol
+		BindingResult otherResult = (BindingResult) other;
+		^
+  symbol:   class BindingResult
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:345: error: cannot find symbol
+		BindingResult otherResult = (BindingResult) other;
+		                             ^
+  symbol:   class BindingResult
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:347: error: cannot find symbol
+				ObjectUtils.nullSafeEquals(getTarget(), otherResult.getTarget()) &&
+				^
+  symbol:   variable ObjectUtils
+  location: class AbstractBindingResult
+process_pre/test/spring-framework/AbstractBindingResult.java:364: error: method does not override or implement a method from a supertype
+	@Override
+	^
+[total 455ms]
+93 errors
+
+*** Infer needs a working compilation command to run.
+
+

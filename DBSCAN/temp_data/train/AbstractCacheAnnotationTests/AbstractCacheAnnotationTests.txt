@@ -1,0 +1,535 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.99ed31'
+*** Output:
+[parsing started RegularFileObject[process_pre/test/spring-framework/AbstractCacheAnnotationTests.java]]
+[parsing completed 57ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/nashorn.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jaccess.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/MRJToolkit.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/UUID.class)]]
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:23: error: package org.junit does not exist
+import org.junit.After;
+                ^
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:24: error: package org.junit does not exist
+import org.junit.Before;
+                ^
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:25: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:27: error: cannot find symbol
+import org.springframework.aop.framework.AopProxyUtils;
+                                        ^
+  symbol:   class AopProxyUtils
+  location: package org.springframework.aop.framework
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:28: error: cannot find symbol
+import org.springframework.beans.factory.NoSuchBeanDefinitionException;
+                                        ^
+  symbol:   class NoSuchBeanDefinitionException
+  location: package org.springframework.beans.factory
+[loading RegularFileObject[./org/springframework/cache/Cache.class]]
+[loading RegularFileObject[./org/springframework/cache/CacheManager.class]]
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:31: error: cannot find symbol
+import org.springframework.context.ConfigurableApplicationContext;
+                                  ^
+  symbol:   class ConfigurableApplicationContext
+  location: package org.springframework.context
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:33: error: package org.hamcrest does not exist
+import static org.hamcrest.Matchers.*;
+                          ^
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:34: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:46: error: cannot find symbol
+	protected ConfigurableApplicationContext ctx;
+	          ^
+  symbol:   class ConfigurableApplicationContext
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:48: error: cannot find symbol
+	protected CacheableService<?> cs;
+	          ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:50: error: cannot find symbol
+	protected CacheableService<?> ccs;
+	          ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:58: error: cannot find symbol
+	protected abstract ConfigurableApplicationContext getApplicationContext();
+	                   ^
+  symbol:   class ConfigurableApplicationContext
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:82: error: cannot find symbol
+	public void testCacheable(CacheableService<?> service) throws Exception {
+	                          ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:93: error: cannot find symbol
+	public void testCacheableNull(CacheableService<?> service) throws Exception {
+	                              ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:108: error: cannot find symbol
+	public void testCacheableSync(CacheableService<?> service) throws Exception {
+	                              ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:119: error: cannot find symbol
+	public void testCacheableSyncNull(CacheableService<?> service) throws Exception {
+	                                  ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:134: error: cannot find symbol
+	public void testEvict(CacheableService<?> service) throws Exception {
+	                      ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:148: error: cannot find symbol
+	public void testEvictEarly(CacheableService<?> service) throws Exception {
+	                           ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:168: error: cannot find symbol
+	public void testEvictException(CacheableService<?> service) throws Exception {
+	                               ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:186: error: cannot find symbol
+	public void testEvictWKey(CacheableService<?> service) throws Exception {
+	                          ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:200: error: cannot find symbol
+	public void testEvictWKeyEarly(CacheableService<?> service) throws Exception {
+	                               ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:220: error: cannot find symbol
+	public void testEvictAll(CacheableService<?> service) throws Exception {
+	                         ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:242: error: cannot find symbol
+	public void testConditionalExpression(CacheableService<?> service) throws Exception {
+	                                      ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:254: error: cannot find symbol
+	public void testConditionalExpressionSync(CacheableService<?> service) throws Exception {
+	                                          ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:266: error: cannot find symbol
+	public void testUnlessExpression(CacheableService<?> service) throws Exception {
+	                                 ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:275: error: cannot find symbol
+	public void testKeyExpression(CacheableService<?> service) throws Exception {
+	                              ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:287: error: cannot find symbol
+	public void testVarArgsKey(CacheableService<?> service) throws Exception {
+	                           ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:300: error: cannot find symbol
+	public void testNullValue(CacheableService<?> service) throws Exception {
+	                          ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:310: error: cannot find symbol
+	public void testMethodName(CacheableService<?> service, String keyName) throws Exception {
+	                           ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:319: error: cannot find symbol
+	public void testRootVars(CacheableService<?> service) {
+	                         ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:329: error: cannot find symbol
+	public void testCheckedThrowable(CacheableService<?> service) throws Exception {
+	                                 ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:341: error: cannot find symbol
+	public void testUncheckedThrowable(CacheableService<?> service) throws Exception {
+	                                   ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:352: error: cannot find symbol
+	public void testCheckedThrowableSync(CacheableService<?> service) throws Exception {
+	                                     ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:364: error: cannot find symbol
+	public void testUncheckedThrowableSync(CacheableService<?> service) throws Exception {
+	                                       ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:374: error: cannot find symbol
+	public void testNullArg(CacheableService<?> service) {
+	                        ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:379: error: cannot find symbol
+	public void testCacheUpdate(CacheableService<?> service) {
+	                            ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:392: error: cannot find symbol
+	public void testConditionalCacheUpdate(CacheableService<?> service) {
+	                                       ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:404: error: cannot find symbol
+	public void testMultiCache(CacheableService<?> service) {
+	                           ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:430: error: cannot find symbol
+	public void testMultiEvict(CacheableService<?> service) {
+	                           ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:460: error: cannot find symbol
+	public void testMultiPut(CacheableService<?> service) {
+	                         ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:480: error: cannot find symbol
+	public void testPutRefersToResult(CacheableService<?> service) throws Exception {
+	                                  ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:490: error: cannot find symbol
+	public void testMultiCacheAndEvict(CacheableService<?> service) {
+	                                   ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:511: error: cannot find symbol
+	public void testMultiConditionalCacheAndEvict(CacheableService<?> service) {
+	                                              ^
+  symbol:   class CacheableService
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:61: error: cannot find symbol
+	@Before
+	 ^
+  symbol:   class Before
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:74: error: cannot find symbol
+	@After
+	 ^
+  symbol:   class After
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:536: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:541: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:546: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:551: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:556: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:561: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:566: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:571: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:576: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:581: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:586: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:591: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:596: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:601: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:606: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:611: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:616: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:621: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:626: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:631: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:636: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:641: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:646: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:651: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:656: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:669: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:674: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:679: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:684: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:689: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:700: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:712: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:723: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:735: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:740: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:745: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:750: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:755: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:760: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:765: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:770: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:775: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:780: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:785: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:790: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:795: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:800: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:805: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:810: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:815: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:820: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:825: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:830: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:835: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+process_pre/test/spring-framework/AbstractCacheAnnotationTests.java:840: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheAnnotationTests
+[checking org.springframework.cache.config.AbstractCacheAnnotationTests]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Callable.class)]]
+[loading RegularFileObject[./org/springframework/cache/Cache$ValueWrapper.class]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/UnsupportedOperationException.class)]]
+[total 548ms]
+100 errors
+
+*** Infer needs a working compilation command to run.
+
+

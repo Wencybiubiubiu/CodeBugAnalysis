@@ -1,0 +1,538 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.8e30b9'
+*** Output:
+[parsing started RegularFileObject[process_pre/test/spring-framework/AbstractBeanFactoryTests.java]]
+[parsing completed 47ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/nashorn.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jaccess.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/MRJToolkit.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/beans/PropertyEditorSupport.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/StringTokenizer.class)]]
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:22: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:24: error: cannot find symbol
+import org.springframework.beans.BeansException;
+                                ^
+  symbol:   class BeansException
+  location: package org.springframework.beans
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:25: error: cannot find symbol
+import org.springframework.beans.PropertyBatchUpdateException;
+                                ^
+  symbol:   class PropertyBatchUpdateException
+  location: package org.springframework.beans
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:26: error: cannot find symbol
+import org.springframework.beans.factory.BeanCreationException;
+                                        ^
+  symbol:   class BeanCreationException
+  location: package org.springframework.beans.factory
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:27: error: cannot find symbol
+import org.springframework.beans.factory.BeanFactory;
+                                        ^
+  symbol:   class BeanFactory
+  location: package org.springframework.beans.factory
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:28: error: cannot find symbol
+import org.springframework.beans.factory.BeanIsNotAFactoryException;
+                                        ^
+  symbol:   class BeanIsNotAFactoryException
+  location: package org.springframework.beans.factory
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:29: error: cannot find symbol
+import org.springframework.beans.factory.BeanNotOfRequiredTypeException;
+                                        ^
+  symbol:   class BeanNotOfRequiredTypeException
+  location: package org.springframework.beans.factory
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:30: error: cannot find symbol
+import org.springframework.beans.factory.NoSuchBeanDefinitionException;
+                                        ^
+  symbol:   class NoSuchBeanDefinitionException
+  location: package org.springframework.beans.factory
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:31: error: cannot find symbol
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+                                               ^
+  symbol:   class ConfigurableBeanFactory
+  location: package org.springframework.beans.factory.config
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:32: error: cannot find symbol
+import org.springframework.tests.sample.beans.LifecycleBean;
+                                             ^
+  symbol:   class LifecycleBean
+  location: package org.springframework.tests.sample.beans
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:33: error: cannot find symbol
+import org.springframework.tests.sample.beans.MustBeInitialized;
+                                             ^
+  symbol:   class MustBeInitialized
+  location: package org.springframework.tests.sample.beans
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:34: error: cannot find symbol
+import org.springframework.tests.sample.beans.TestBean;
+                                             ^
+  symbol:   class TestBean
+  location: package org.springframework.tests.sample.beans
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:35: error: package org.springframework.tests.sample.beans.factory does not exist
+import org.springframework.tests.sample.beans.factory.DummyFactory;
+                                                     ^
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:37: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:48: error: cannot find symbol
+	protected abstract BeanFactory getBeanFactory();
+	                   ^
+  symbol:   class BeanFactory
+  location: class AbstractBeanFactoryTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/beans/PropertyEditor.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:53: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:66: error: cannot find symbol
+	@Test(expected = IllegalArgumentException.class)
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:74: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:86: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:96: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:105: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:111: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:126: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:132: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:138: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:152: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:161: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:174: error: cannot find symbol
+	@Test(expected = BeansException.class)
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:180: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:204: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:210: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:222: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:237: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:246: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:257: error: cannot find symbol
+	@Test(expected = BeanIsNotAFactoryException.class)
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:264: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractBeanFactoryTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+[checking org.springframework.beans.factory.xml.AbstractBeanFactoryTests]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:57: error: cannot find symbol
+		TestBean rod = (TestBean) getBeanFactory().getBean("rod");
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:57: error: cannot find symbol
+		TestBean rod = (TestBean) getBeanFactory().getBean("rod");
+		                ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:58: error: cannot find symbol
+		TestBean roderick = (TestBean) getBeanFactory().getBean("roderick");
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:58: error: cannot find symbol
+		TestBean roderick = (TestBean) getBeanFactory().getBean("roderick");
+		                     ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:76: error: cannot find symbol
+		MustBeInitialized mbi = (MustBeInitialized) getBeanFactory().getBean("mustBeInitialized");
+		^
+  symbol:   class MustBeInitialized
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:76: error: cannot find symbol
+		MustBeInitialized mbi = (MustBeInitialized) getBeanFactory().getBean("mustBeInitialized");
+		                         ^
+  symbol:   class MustBeInitialized
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:88: error: cannot find symbol
+		LifecycleBean lb = (LifecycleBean) getBeanFactory().getBean("lifecycle");
+		^
+  symbol:   class LifecycleBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:88: error: cannot find symbol
+		LifecycleBean lb = (LifecycleBean) getBeanFactory().getBean("lifecycle");
+		                    ^
+  symbol:   class LifecycleBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:99: error: cannot find symbol
+		assertTrue("Rod bean is a TestBean", o instanceof TestBean);
+		                                                  ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:99: error: cannot find symbol
+		assertTrue("Rod bean is a TestBean", o instanceof TestBean);
+		^
+  symbol:   method assertTrue(String,boolean)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:100: error: cannot find symbol
+		TestBean rod = (TestBean) o;
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:100: error: cannot find symbol
+		TestBean rod = (TestBean) o;
+		                ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:107: error: cannot find symbol
+		Object o = getBeanFactory().getBean("rod", TestBean.class);
+		                                           ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:108: error: cannot find symbol
+		assertTrue("Rod bean is a TestBean", o instanceof TestBean);
+		                                                  ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:108: error: cannot find symbol
+		assertTrue("Rod bean is a TestBean", o instanceof TestBean);
+		^
+  symbol:   method assertTrue(String,boolean)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:114: error: cannot find symbol
+			getBeanFactory().getBean("rod", BeanFactory.class);
+			                                ^
+  symbol:   class BeanFactory
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:115: error: cannot find symbol
+			fail("Rod bean is not of type BeanFactory; getBeanInstance(rod, BeanFactory.class) should throw BeanNotOfRequiredTypeException");
+			^
+  symbol:   method fail(String)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:117: error: cannot find symbol
+		catch (BeanNotOfRequiredTypeException ex) {
+		       ^
+  symbol:   class BeanNotOfRequiredTypeException
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:120: error: cannot find symbol
+			assertTrue("Exception requiredType must be BeanFactory.class", ex.getRequiredType().equals(BeanFactory.class));
+			                                                                                           ^
+  symbol:   class BeanFactory
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:121: error: cannot find symbol
+			assertTrue("Exception actualType as TestBean.class", TestBean.class.isAssignableFrom(ex.getActualType()));
+			                                                     ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:128: error: cannot find symbol
+		Object o = getBeanFactory().getBean("rod", TestBean.class);
+		                                           ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:129: error: cannot find symbol
+		assertTrue("Rod bean is a TestBean", o instanceof TestBean);
+		                                                  ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:129: error: cannot find symbol
+		assertTrue("Rod bean is a TestBean", o instanceof TestBean);
+		^
+  symbol:   method assertTrue(String,boolean)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:134: error: cannot find symbol
+		Object o = getBeanFactory().getBean("rod", TestBean.class);
+		                                           ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:135: error: cannot find symbol
+		assertTrue("Rod bean is a TestBean", o instanceof TestBean);
+		                                                  ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:135: error: cannot find symbol
+		assertTrue("Rod bean is a TestBean", o instanceof TestBean);
+		^
+  symbol:   method assertTrue(String,boolean)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:141: error: cannot find symbol
+			getBeanFactory().getBean("rod", BeanFactory.class);
+			                                ^
+  symbol:   class BeanFactory
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:142: error: cannot find symbol
+			fail("Rod bean is not of type BeanFactory; getBeanInstance(rod, BeanFactory.class) should throw BeanNotOfRequiredTypeException");
+			^
+  symbol:   method fail(String)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:144: error: cannot find symbol
+		catch (BeanNotOfRequiredTypeException ex) {
+		       ^
+  symbol:   class BeanNotOfRequiredTypeException
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:147: error: cannot find symbol
+			assertTrue("Exception requiredType must be BeanFactory.class", ex.getRequiredType().equals(BeanFactory.class));
+			                                                                                           ^
+  symbol:   class BeanFactory
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:148: error: cannot find symbol
+			assertTrue("Exception actualType as TestBean.class", TestBean.class.isAssignableFrom(ex.getActualType()));
+			                                                     ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:155: error: cannot find symbol
+		assertTrue("Rod bean1 is a TestBean", o instanceof TestBean);
+		                                                   ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:155: error: cannot find symbol
+		assertTrue("Rod bean1 is a TestBean", o instanceof TestBean);
+		^
+  symbol:   method assertTrue(String,boolean)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:157: error: cannot find symbol
+		assertTrue("Rod bean2 is a TestBean", o1 instanceof TestBean);
+		                                                    ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:157: error: cannot find symbol
+		assertTrue("Rod bean2 is a TestBean", o1 instanceof TestBean);
+		^
+  symbol:   method assertTrue(String,boolean)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:158: error: cannot find symbol
+		assertTrue("Object equals applies", o == o1);
+		^
+  symbol:   method assertTrue(String,boolean)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:163: error: cannot find symbol
+		TestBean tb1 = (TestBean) getBeanFactory().getBean("kathy");
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:163: error: cannot find symbol
+		TestBean tb1 = (TestBean) getBeanFactory().getBean("kathy");
+		                ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:164: error: cannot find symbol
+		TestBean tb2 = (TestBean) getBeanFactory().getBean("kathy");
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:164: error: cannot find symbol
+		TestBean tb2 = (TestBean) getBeanFactory().getBean("kathy");
+		                ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:183: error: cannot find symbol
+		assertTrue("validEmpty bean is a TestBean", o instanceof TestBean);
+		                                                         ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:183: error: cannot find symbol
+		assertTrue("validEmpty bean is a TestBean", o instanceof TestBean);
+		^
+  symbol:   method assertTrue(String,boolean)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:184: error: cannot find symbol
+		TestBean ve = (TestBean) o;
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:184: error: cannot find symbol
+		TestBean ve = (TestBean) o;
+		               ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:191: error: cannot find symbol
+			fail("Shouldn't succeed with type mismatch");
+			^
+  symbol:   method fail(String)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:193: error: cannot find symbol
+		catch (BeanCreationException wex) {
+		       ^
+  symbol:   class BeanCreationException
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:195: error: cannot find symbol
+			assertTrue(wex.getCause() instanceof PropertyBatchUpdateException);
+			                                     ^
+  symbol:   class PropertyBatchUpdateException
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:195: error: cannot find symbol
+			assertTrue(wex.getCause() instanceof PropertyBatchUpdateException);
+			^
+  symbol:   method assertTrue(boolean)
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:196: error: cannot find symbol
+			PropertyBatchUpdateException ex = (PropertyBatchUpdateException) wex.getCause();
+			^
+  symbol:   class PropertyBatchUpdateException
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:196: error: cannot find symbol
+			PropertyBatchUpdateException ex = (PropertyBatchUpdateException) wex.getCause();
+			                                   ^
+  symbol:   class PropertyBatchUpdateException
+  location: class AbstractBeanFactoryTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:206: error: cannot find symbol
+		TestBean dad = (TestBean) getBeanFactory().getBean("father");
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:206: error: cannot find symbol
+		TestBean dad = (TestBean) getBeanFactory().getBean("father");
+		                ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:214: error: cannot find symbol
+		TestBean tb = (TestBean) getBeanFactory().getBean("singletonFactory");
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:214: error: cannot find symbol
+		TestBean tb = (TestBean) getBeanFactory().getBean("singletonFactory");
+		               ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:215: error: cannot find symbol
+		assertTrue("Singleton from factory has correct name, not " + tb.getName(), tb.getName().equals(DummyFactory.SINGLETON_NAME));
+		                                                                                               ^
+  symbol:   variable DummyFactory
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:216: error: cannot find symbol
+		DummyFactory factory = (DummyFactory) getBeanFactory().getBean("&singletonFactory");
+		^
+  symbol:   class DummyFactory
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:216: error: cannot find symbol
+		DummyFactory factory = (DummyFactory) getBeanFactory().getBean("&singletonFactory");
+		                        ^
+  symbol:   class DummyFactory
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:217: error: cannot find symbol
+		TestBean tb2 = (TestBean) getBeanFactory().getBean("singletonFactory");
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:217: error: cannot find symbol
+		TestBean tb2 = (TestBean) getBeanFactory().getBean("singletonFactory");
+		                ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:226: error: cannot find symbol
+		TestBean tb = (TestBean) getBeanFactory().getBean("prototypeFactory");
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:226: error: cannot find symbol
+		TestBean tb = (TestBean) getBeanFactory().getBean("prototypeFactory");
+		               ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:227: error: cannot find symbol
+		assertTrue(!tb.getName().equals(DummyFactory.SINGLETON_NAME));
+		                                ^
+  symbol:   variable DummyFactory
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:228: error: cannot find symbol
+		TestBean tb2 = (TestBean) getBeanFactory().getBean("prototypeFactory");
+		^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+process_pre/test/spring-framework/AbstractBeanFactoryTests.java:228: error: cannot find symbol
+		TestBean tb2 = (TestBean) getBeanFactory().getBean("prototypeFactory");
+		                ^
+  symbol:   class TestBean
+  location: class AbstractBeanFactoryTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Enumeration.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class)]]
+[total 449ms]
+100 errors
+
+*** Infer needs a working compilation command to run.
+
+

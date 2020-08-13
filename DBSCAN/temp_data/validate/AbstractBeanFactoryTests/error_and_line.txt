@@ -1,0 +1,200 @@
+error: package org.junit does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: package org.springframework.tests.sample.beans.factory does not exist
+error: package org.junit does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+java:22: error: package org.junit does not exist
+java:24: error: cannot find symbol
+java:25: error: cannot find symbol
+java:26: error: cannot find symbol
+java:27: error: cannot find symbol
+java:28: error: cannot find symbol
+java:29: error: cannot find symbol
+java:30: error: cannot find symbol
+java:31: error: cannot find symbol
+java:32: error: cannot find symbol
+java:33: error: cannot find symbol
+java:34: error: cannot find symbol
+java:35: error: package org.springframework.tests.sample.beans.factory does not exist
+java:37: error: package org.junit does not exist
+java:48: error: cannot find symbol
+java:53: error: cannot find symbol
+java:66: error: cannot find symbol
+java:74: error: cannot find symbol
+java:86: error: cannot find symbol
+java:96: error: cannot find symbol
+java:105: error: cannot find symbol
+java:111: error: cannot find symbol
+java:126: error: cannot find symbol
+java:132: error: cannot find symbol
+java:138: error: cannot find symbol
+java:152: error: cannot find symbol
+java:161: error: cannot find symbol
+java:174: error: cannot find symbol
+java:180: error: cannot find symbol
+java:204: error: cannot find symbol
+java:210: error: cannot find symbol
+java:222: error: cannot find symbol
+java:237: error: cannot find symbol
+java:246: error: cannot find symbol
+java:257: error: cannot find symbol
+java:264: error: cannot find symbol
+java:57: error: cannot find symbol
+java:57: error: cannot find symbol
+java:58: error: cannot find symbol
+java:58: error: cannot find symbol
+java:76: error: cannot find symbol
+java:76: error: cannot find symbol
+java:88: error: cannot find symbol
+java:88: error: cannot find symbol
+java:99: error: cannot find symbol
+java:99: error: cannot find symbol
+java:100: error: cannot find symbol
+java:100: error: cannot find symbol
+java:107: error: cannot find symbol
+java:108: error: cannot find symbol
+java:108: error: cannot find symbol
+java:114: error: cannot find symbol
+java:115: error: cannot find symbol
+java:117: error: cannot find symbol
+java:120: error: cannot find symbol
+java:121: error: cannot find symbol
+java:128: error: cannot find symbol
+java:129: error: cannot find symbol
+java:129: error: cannot find symbol
+java:134: error: cannot find symbol
+java:135: error: cannot find symbol
+java:135: error: cannot find symbol
+java:141: error: cannot find symbol
+java:142: error: cannot find symbol
+java:144: error: cannot find symbol
+java:147: error: cannot find symbol
+java:148: error: cannot find symbol
+java:155: error: cannot find symbol
+java:155: error: cannot find symbol
+java:157: error: cannot find symbol
+java:157: error: cannot find symbol
+java:158: error: cannot find symbol
+java:163: error: cannot find symbol
+java:163: error: cannot find symbol
+java:164: error: cannot find symbol
+java:164: error: cannot find symbol
+java:183: error: cannot find symbol
+java:183: error: cannot find symbol
+java:184: error: cannot find symbol
+java:184: error: cannot find symbol
+java:191: error: cannot find symbol
+java:193: error: cannot find symbol
+java:195: error: cannot find symbol
+java:195: error: cannot find symbol
+java:196: error: cannot find symbol
+java:196: error: cannot find symbol
+java:206: error: cannot find symbol
+java:206: error: cannot find symbol
+java:214: error: cannot find symbol
+java:214: error: cannot find symbol
+java:215: error: cannot find symbol
+java:216: error: cannot find symbol
+java:216: error: cannot find symbol
+java:217: error: cannot find symbol
+java:217: error: cannot find symbol
+java:226: error: cannot find symbol
+java:226: error: cannot find symbol
+java:227: error: cannot find symbol
+java:228: error: cannot find symbol
+java:228: error: cannot find symbol

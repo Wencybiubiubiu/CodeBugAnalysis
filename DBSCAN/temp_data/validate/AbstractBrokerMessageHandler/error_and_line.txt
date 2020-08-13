@@ -1,0 +1,116 @@
+error: package org.apache.commons.logging does not exist
+error: package org.apache.commons.logging does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: package org.springframework.messaging.support does not exist
+error: package org.springframework.messaging.support does not exist
+error: package org.springframework.messaging.support does not exist
+error: package org.springframework.util does not exist
+error: package org.springframework.util does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: method does not override or implement a method from a supertype
+error: method does not override or implement a method from a supertype
+error: method does not override or implement a method from a supertype
+error: method does not override or implement a method from a supertype
+error: cannot find symbol
+error: cannot find symbol
+error: method does not override or implement a method from a supertype
+error: cannot find symbol
+error: cannot find symbol
+error: method does not override or implement a method from a supertype
+error: method does not override or implement a method from a supertype
+error: method does not override or implement a method from a supertype
+error: cannot find symbol
+error: method does not override or implement a method from a supertype
+error: cannot find symbol
+error: cannot find symbol
+error: package SimpMessageType does not exist
+java:23: error: package org.apache.commons.logging does not exist
+java:24: error: package org.apache.commons.logging does not exist
+java:27: error: cannot find symbol
+java:28: error: cannot find symbol
+java:29: error: cannot find symbol
+java:30: error: cannot find symbol
+java:31: error: cannot find symbol
+java:32: error: cannot find symbol
+java:33: error: cannot find symbol
+java:34: error: cannot find symbol
+java:35: error: package org.springframework.messaging.support does not exist
+java:36: error: package org.springframework.messaging.support does not exist
+java:37: error: package org.springframework.messaging.support does not exist
+java:38: error: package org.springframework.util does not exist
+java:39: error: package org.springframework.util does not exist
+java:49: error: cannot find symbol
+java:49: error: cannot find symbol
+java:49: error: cannot find symbol
+java:51: error: cannot find symbol
+java:53: error: cannot find symbol
+java:55: error: cannot find symbol
+java:57: error: cannot find symbol
+java:75: error: cannot find symbol
+java:84: error: cannot find symbol
+java:84: error: cannot find symbol
+java:85: error: cannot find symbol
+java:97: error: cannot find symbol
+java:97: error: cannot find symbol
+java:98: error: cannot find symbol
+java:113: error: cannot find symbol
+java:117: error: cannot find symbol
+java:121: error: cannot find symbol
+java:231: error: cannot find symbol
+java:241: error: cannot find symbol
+java:280: error: cannot find symbol
+java:283: error: cannot find symbol
+java:283: error: cannot find symbol
+java:51: error: cannot find symbol
+java:100: error: cannot find symbol
+java:101: error: cannot find symbol
+java:102: error: cannot find symbol
+java:129: error: method does not override or implement a method from a supertype
+java:142: error: method does not override or implement a method from a supertype
+java:147: error: method does not override or implement a method from a supertype
+java:153: error: method does not override or implement a method from a supertype
+java:161: error: cannot find symbol
+java:162: error: cannot find symbol
+java:173: error: method does not override or implement a method from a supertype
+java:182: error: cannot find symbol
+java:183: error: cannot find symbol
+java:193: error: method does not override or implement a method from a supertype
+java:207: error: method does not override or implement a method from a supertype
+java:230: error: method does not override or implement a method from a supertype
+java:245: error: cannot find symbol
+java:282: error: method does not override or implement a method from a supertype
+java:285: error: cannot find symbol
+java:285: error: cannot find symbol
+java:286: error: package SimpMessageType does not exist
