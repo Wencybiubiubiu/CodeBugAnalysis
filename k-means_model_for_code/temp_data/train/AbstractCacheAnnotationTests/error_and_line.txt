@@ -1,0 +1,200 @@
+error: package org.junit does not exist
+error: package org.junit does not exist
+error: package org.junit does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: package org.hamcrest does not exist
+error: package org.junit does not exist
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+java:23: error: package org.junit does not exist
+java:24: error: package org.junit does not exist
+java:25: error: package org.junit does not exist
+java:27: error: cannot find symbol
+java:28: error: cannot find symbol
+java:31: error: cannot find symbol
+java:33: error: package org.hamcrest does not exist
+java:34: error: package org.junit does not exist
+java:46: error: cannot find symbol
+java:48: error: cannot find symbol
+java:50: error: cannot find symbol
+java:58: error: cannot find symbol
+java:82: error: cannot find symbol
+java:93: error: cannot find symbol
+java:108: error: cannot find symbol
+java:119: error: cannot find symbol
+java:134: error: cannot find symbol
+java:148: error: cannot find symbol
+java:168: error: cannot find symbol
+java:186: error: cannot find symbol
+java:200: error: cannot find symbol
+java:220: error: cannot find symbol
+java:242: error: cannot find symbol
+java:254: error: cannot find symbol
+java:266: error: cannot find symbol
+java:275: error: cannot find symbol
+java:287: error: cannot find symbol
+java:300: error: cannot find symbol
+java:310: error: cannot find symbol
+java:319: error: cannot find symbol
+java:329: error: cannot find symbol
+java:341: error: cannot find symbol
+java:352: error: cannot find symbol
+java:364: error: cannot find symbol
+java:374: error: cannot find symbol
+java:379: error: cannot find symbol
+java:392: error: cannot find symbol
+java:404: error: cannot find symbol
+java:430: error: cannot find symbol
+java:460: error: cannot find symbol
+java:480: error: cannot find symbol
+java:490: error: cannot find symbol
+java:511: error: cannot find symbol
+java:61: error: cannot find symbol
+java:74: error: cannot find symbol
+java:536: error: cannot find symbol
+java:541: error: cannot find symbol
+java:546: error: cannot find symbol
+java:551: error: cannot find symbol
+java:556: error: cannot find symbol
+java:561: error: cannot find symbol
+java:566: error: cannot find symbol
+java:571: error: cannot find symbol
+java:576: error: cannot find symbol
+java:581: error: cannot find symbol
+java:586: error: cannot find symbol
+java:591: error: cannot find symbol
+java:596: error: cannot find symbol
+java:601: error: cannot find symbol
+java:606: error: cannot find symbol
+java:611: error: cannot find symbol
+java:616: error: cannot find symbol
+java:621: error: cannot find symbol
+java:626: error: cannot find symbol
+java:631: error: cannot find symbol
+java:636: error: cannot find symbol
+java:641: error: cannot find symbol
+java:646: error: cannot find symbol
+java:651: error: cannot find symbol
+java:656: error: cannot find symbol
+java:669: error: cannot find symbol
+java:674: error: cannot find symbol
+java:679: error: cannot find symbol
+java:684: error: cannot find symbol
+java:689: error: cannot find symbol
+java:700: error: cannot find symbol
+java:712: error: cannot find symbol
+java:723: error: cannot find symbol
+java:735: error: cannot find symbol
+java:740: error: cannot find symbol
+java:745: error: cannot find symbol
+java:750: error: cannot find symbol
+java:755: error: cannot find symbol
+java:760: error: cannot find symbol
+java:765: error: cannot find symbol
+java:770: error: cannot find symbol
+java:775: error: cannot find symbol
+java:780: error: cannot find symbol
+java:785: error: cannot find symbol
+java:790: error: cannot find symbol
+java:795: error: cannot find symbol
+java:800: error: cannot find symbol
+java:805: error: cannot find symbol
+java:810: error: cannot find symbol
+java:815: error: cannot find symbol
+java:820: error: cannot find symbol
+java:825: error: cannot find symbol
+java:830: error: cannot find symbol
+java:835: error: cannot find symbol
+java:840: error: cannot find symbol

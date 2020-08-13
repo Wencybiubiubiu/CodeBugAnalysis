@@ -1,0 +1,173 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.3c7628'
+*** Output:
+[parsing started RegularFileObject[process_pre/test/spring-framework/AbstractCachingViewResolver.java]]
+[parsing completed 30ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/nashorn.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jaccess.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/MRJToolkit.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashMap.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ConcurrentHashMap.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:23: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletRequest;
+                         ^
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:24: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletResponse;
+                         ^
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:26: error: package org.springframework.web.context.support does not exist
+import org.springframework.web.context.support.WebApplicationObjectSupport;
+                                              ^
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:27: error: cannot find symbol
+import org.springframework.web.servlet.View;
+                                      ^
+  symbol:   class View
+  location: package org.springframework.web.servlet
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:28: error: cannot find symbol
+import org.springframework.web.servlet.ViewResolver;
+                                      ^
+  symbol:   class ViewResolver
+  location: package org.springframework.web.servlet
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:43: error: cannot find symbol
+public abstract class AbstractCachingViewResolver extends WebApplicationObjectSupport implements ViewResolver {
+                                                          ^
+  symbol: class WebApplicationObjectSupport
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:43: error: cannot find symbol
+public abstract class AbstractCachingViewResolver extends WebApplicationObjectSupport implements ViewResolver {
+                                                                                                 ^
+  symbol: class ViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:49: error: cannot find symbol
+	private static final View UNRESOLVED_VIEW = new View() {
+	                     ^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:67: error: cannot find symbol
+	private final Map<Object, View> viewAccessCache = new ConcurrentHashMap<Object, View>(DEFAULT_CACHE_LIMIT);
+	                          ^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:71: error: cannot find symbol
+	private final Map<Object, View> viewCreationCache =
+	                          ^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:144: error: cannot find symbol
+	public View resolveViewName(String viewName, Locale locale) throws Exception {
+	       ^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:243: error: cannot find symbol
+	protected View createView(String viewName, Locale locale) throws Exception {
+	          ^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:260: error: cannot find symbol
+	protected abstract View loadView(String viewName, Locale locale) throws Exception;
+	                   ^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+[checking org.springframework.web.servlet.view.AbstractCachingViewResolver]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:49: error: cannot find symbol
+	private static final View UNRESOLVED_VIEW = new View() {
+	                                                ^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:67: error: cannot find symbol
+	private final Map<Object, View> viewAccessCache = new ConcurrentHashMap<Object, View>(DEFAULT_CACHE_LIMIT);
+	                                                                                ^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractMap.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:72: error: cannot find symbol
+			new LinkedHashMap<Object, View>(DEFAULT_CACHE_LIMIT, 0.75f, true) {
+			                          ^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:74: error: cannot find symbol
+				protected boolean removeEldestEntry(Map.Entry<Object, View> eldest) {
+				                                                      ^
+  symbol: class View
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/function/BiFunction.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/function/BiConsumer.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/function/Function.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CloneNotSupportedException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:143: error: method does not override or implement a method from a supertype
+	@Override
+	^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:150: error: cannot find symbol
+			View view = this.viewAccessCache.get(cacheKey);
+			^
+  symbol:   class View
+  location: class AbstractCachingViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:163: error: cannot find symbol
+							if (logger.isTraceEnabled()) {
+							    ^
+  symbol:   variable logger
+  location: class AbstractCachingViewResolver
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:164: error: cannot find symbol
+								logger.trace("Cached view [" + cacheKey + "]");
+								^
+  symbol:   variable logger
+  location: class AbstractCachingViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:196: error: cannot find symbol
+			logger.warn("View caching is SWITCHED OFF -- removal not necessary");
+			^
+  symbol:   variable logger
+  location: class AbstractCachingViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:205: error: cannot find symbol
+			if (logger.isDebugEnabled()) {
+			    ^
+  symbol:   variable logger
+  location: class AbstractCachingViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:208: error: cannot find symbol
+					logger.debug("No cached instance for view '" + cacheKey + "' was found");
+					^
+  symbol:   variable logger
+  location: class AbstractCachingViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:211: error: cannot find symbol
+					logger.debug("Cache for view " + cacheKey + " has been cleared");
+					^
+  symbol:   variable logger
+  location: class AbstractCachingViewResolver
+process_pre/test/spring-framework/AbstractCachingViewResolver.java:222: error: cannot find symbol
+		logger.debug("Clearing entire view cache");
+		^
+  symbol:   variable logger
+  location: class AbstractCachingViewResolver
+[total 348ms]
+26 errors
+
+*** Infer needs a working compilation command to run.
+
+

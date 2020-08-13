@@ -1,0 +1,12 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 2
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.cd2a99'
+*** Output:
+javac: invalid flag: *
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+*** Infer needs a working compilation command to run.
+
+

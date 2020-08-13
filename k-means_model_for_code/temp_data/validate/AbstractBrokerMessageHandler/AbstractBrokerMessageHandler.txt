@@ -1,0 +1,302 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.aa516c'
+*** Output:
+[parsing started RegularFileObject[process_pre/test/spring-framework/AbstractBrokerMessageHandler.java]]
+[parsing completed 42ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/nashorn.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jaccess.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/MRJToolkit.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/atomic/AtomicBoolean.class)]]
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:23: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:24: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+[loading RegularFileObject[./org/springframework/context/ApplicationEventPublisher.class]]
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:27: error: cannot find symbol
+import org.springframework.context.ApplicationEventPublisherAware;
+                                  ^
+  symbol:   class ApplicationEventPublisherAware
+  location: package org.springframework.context
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:28: error: cannot find symbol
+import org.springframework.context.SmartLifecycle;
+                                  ^
+  symbol:   class SmartLifecycle
+  location: package org.springframework.context
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:29: error: cannot find symbol
+import org.springframework.messaging.Message;
+                                    ^
+  symbol:   class Message
+  location: package org.springframework.messaging
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:30: error: cannot find symbol
+import org.springframework.messaging.MessageChannel;
+                                    ^
+  symbol:   class MessageChannel
+  location: package org.springframework.messaging
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:31: error: cannot find symbol
+import org.springframework.messaging.MessageHandler;
+                                    ^
+  symbol:   class MessageHandler
+  location: package org.springframework.messaging
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:32: error: cannot find symbol
+import org.springframework.messaging.SubscribableChannel;
+                                    ^
+  symbol:   class SubscribableChannel
+  location: package org.springframework.messaging
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:33: error: cannot find symbol
+import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
+                                         ^
+  symbol:   class SimpMessageHeaderAccessor
+  location: package org.springframework.messaging.simp
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:34: error: cannot find symbol
+import org.springframework.messaging.simp.SimpMessageType;
+                                         ^
+  symbol:   class SimpMessageType
+  location: package org.springframework.messaging.simp
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:35: error: package org.springframework.messaging.support does not exist
+import org.springframework.messaging.support.ChannelInterceptor;
+                                            ^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:36: error: package org.springframework.messaging.support does not exist
+import org.springframework.messaging.support.ChannelInterceptorAdapter;
+                                            ^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:37: error: package org.springframework.messaging.support does not exist
+import org.springframework.messaging.support.InterceptableChannel;
+                                            ^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:38: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:39: error: package org.springframework.util does not exist
+import org.springframework.util.CollectionUtils;
+                               ^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:49: error: cannot find symbol
+		implements MessageHandler, ApplicationEventPublisherAware, SmartLifecycle {
+		           ^
+  symbol: class MessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:49: error: cannot find symbol
+		implements MessageHandler, ApplicationEventPublisherAware, SmartLifecycle {
+		                           ^
+  symbol: class ApplicationEventPublisherAware
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:49: error: cannot find symbol
+		implements MessageHandler, ApplicationEventPublisherAware, SmartLifecycle {
+		                                                           ^
+  symbol: class SmartLifecycle
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:51: error: cannot find symbol
+	protected final Log logger = LogFactory.getLog(getClass());
+	                ^
+  symbol:   class Log
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:53: error: cannot find symbol
+	private final SubscribableChannel clientInboundChannel;
+	              ^
+  symbol:   class SubscribableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:55: error: cannot find symbol
+	private final MessageChannel clientOutboundChannel;
+	              ^
+  symbol:   class MessageChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:57: error: cannot find symbol
+	private final SubscribableChannel brokerChannel;
+	              ^
+  symbol:   class SubscribableChannel
+  location: class AbstractBrokerMessageHandler
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+[loading RegularFileObject[./org/springframework/messaging/simp/broker/BrokerAvailabilityEvent.class]]
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:75: error: cannot find symbol
+	private final ChannelInterceptor unsentDisconnectInterceptor = new UnsentDisconnectChannelInterceptor();
+	              ^
+  symbol:   class ChannelInterceptor
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:84: error: cannot find symbol
+	public AbstractBrokerMessageHandler(SubscribableChannel inboundChannel, MessageChannel outboundChannel,
+	                                    ^
+  symbol:   class SubscribableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:84: error: cannot find symbol
+	public AbstractBrokerMessageHandler(SubscribableChannel inboundChannel, MessageChannel outboundChannel,
+	                                                                        ^
+  symbol:   class MessageChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:85: error: cannot find symbol
+			SubscribableChannel brokerChannel) {
+			^
+  symbol:   class SubscribableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:97: error: cannot find symbol
+	public AbstractBrokerMessageHandler(SubscribableChannel inboundChannel, MessageChannel outboundChannel,
+	                                    ^
+  symbol:   class SubscribableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:97: error: cannot find symbol
+	public AbstractBrokerMessageHandler(SubscribableChannel inboundChannel, MessageChannel outboundChannel,
+	                                                                        ^
+  symbol:   class MessageChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:98: error: cannot find symbol
+			SubscribableChannel brokerChannel, Collection<String> destinationPrefixes) {
+			^
+  symbol:   class SubscribableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:113: error: cannot find symbol
+	public SubscribableChannel getClientInboundChannel() {
+	       ^
+  symbol:   class SubscribableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:117: error: cannot find symbol
+	public MessageChannel getClientOutboundChannel() {
+	       ^
+  symbol:   class MessageChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:121: error: cannot find symbol
+	public SubscribableChannel getBrokerChannel() {
+	       ^
+  symbol:   class SubscribableChannel
+  location: class AbstractBrokerMessageHandler
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Runnable.class)]]
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:231: error: cannot find symbol
+	public void handleMessage(Message<?> message) {
+	                          ^
+  symbol:   class Message
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:241: error: cannot find symbol
+	protected abstract void handleMessageInternal(Message<?> message);
+	                                              ^
+  symbol:   class Message
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:280: error: cannot find symbol
+	private class UnsentDisconnectChannelInterceptor extends ChannelInterceptorAdapter {
+	                                                         ^
+  symbol:   class ChannelInterceptorAdapter
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:283: error: cannot find symbol
+		public void afterSendCompletion(Message<?> message, MessageChannel channel, boolean sent, Exception ex) {
+		                                ^
+  symbol:   class Message
+  location: class AbstractBrokerMessageHandler.UnsentDisconnectChannelInterceptor
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:283: error: cannot find symbol
+		public void afterSendCompletion(Message<?> message, MessageChannel channel, boolean sent, Exception ex) {
+		                                                    ^
+  symbol:   class MessageChannel
+  location: class AbstractBrokerMessageHandler.UnsentDisconnectChannelInterceptor
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+[checking org.springframework.messaging.simp.broker.AbstractBrokerMessageHandler]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:51: error: cannot find symbol
+	protected final Log logger = LogFactory.getLog(getClass());
+	                             ^
+  symbol:   variable LogFactory
+  location: class AbstractBrokerMessageHandler
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class)]]
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:100: error: cannot find symbol
+		Assert.notNull(inboundChannel, "'inboundChannel' must not be null");
+		^
+  symbol:   variable Assert
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:101: error: cannot find symbol
+		Assert.notNull(outboundChannel, "'outboundChannel' must not be null");
+		^
+  symbol:   variable Assert
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:102: error: cannot find symbol
+		Assert.notNull(brokerChannel, "'brokerChannel' must not be null");
+		^
+  symbol:   variable Assert
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:129: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:142: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:147: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:153: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:161: error: cannot find symbol
+			if (this.clientInboundChannel instanceof InterceptableChannel) {
+			                                         ^
+  symbol:   class InterceptableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:162: error: cannot find symbol
+				((InterceptableChannel) this.clientInboundChannel).addInterceptor(0, this.unsentDisconnectInterceptor);
+				  ^
+  symbol:   class InterceptableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:173: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:182: error: cannot find symbol
+			if (this.clientInboundChannel instanceof InterceptableChannel) {
+			                                         ^
+  symbol:   class InterceptableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:183: error: cannot find symbol
+				((InterceptableChannel) this.clientInboundChannel).removeInterceptor(this.unsentDisconnectInterceptor);
+				  ^
+  symbol:   class InterceptableChannel
+  location: class AbstractBrokerMessageHandler
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:193: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:207: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:230: error: method does not override or implement a method from a supertype
+	@Override
+	^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:245: error: cannot find symbol
+		if ((destination == null) || CollectionUtils.isEmpty(this.destinationPrefixes)) {
+		                             ^
+  symbol:   variable CollectionUtils
+  location: class AbstractBrokerMessageHandler
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class)]]
+[loading RegularFileObject[./org/springframework/context/ApplicationEvent.class]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/EventObject.class)]]
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:282: error: method does not override or implement a method from a supertype
+		@Override
+		^
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:285: error: cannot find symbol
+				SimpMessageType messageType = SimpMessageHeaderAccessor.getMessageType(message.getHeaders());
+				^
+  symbol:   class SimpMessageType
+  location: class AbstractBrokerMessageHandler.UnsentDisconnectChannelInterceptor
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:285: error: cannot find symbol
+				SimpMessageType messageType = SimpMessageHeaderAccessor.getMessageType(message.getHeaders());
+				                              ^
+  symbol:   variable SimpMessageHeaderAccessor
+  location: class AbstractBrokerMessageHandler.UnsentDisconnectChannelInterceptor
+process_pre/test/spring-framework/AbstractBrokerMessageHandler.java:286: error: package SimpMessageType does not exist
+				if (SimpMessageType.DISCONNECT.equals(messageType)) {
+				                   ^
+[total 500ms]
+58 errors
+
+*** Infer needs a working compilation command to run.
+
+

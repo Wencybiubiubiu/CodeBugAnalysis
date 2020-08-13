@@ -1,0 +1,20 @@
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: cannot find symbol
+error: method does not override or implement a method from a supertype
+error: method does not override or implement a method from a supertype
+error: cannot find symbol
+java:23: error: cannot find symbol
+java:32: error: cannot find symbol
+java:38: error: cannot find symbol
+java:43: error: cannot find symbol
+java:43: error: cannot find symbol
+java:59: error: cannot find symbol
+java:59: error: cannot find symbol
+java:37: error: method does not override or implement a method from a supertype
+java:42: error: method does not override or implement a method from a supertype
+java:48: error: cannot find symbol

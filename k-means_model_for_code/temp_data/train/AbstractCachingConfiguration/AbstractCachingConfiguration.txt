@@ -1,0 +1,133 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.8d13a3'
+*** Output:
+[parsing started RegularFileObject[process_pre/test/spring-framework/AbstractCachingConfiguration.java]]
+[parsing completed 28ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/nashorn.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jaccess.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/MRJToolkit.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)]]
+[loading RegularFileObject[./org/springframework/beans/factory/annotation/Autowired.class]]
+[loading RegularFileObject[./org/springframework/cache/CacheManager.class]]
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:23: error: cannot find symbol
+import org.springframework.cache.interceptor.CacheErrorHandler;
+                                            ^
+  symbol:   class CacheErrorHandler
+  location: package org.springframework.cache.interceptor
+[loading RegularFileObject[./org/springframework/cache/interceptor/CacheResolver.class]]
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:25: error: cannot find symbol
+import org.springframework.cache.interceptor.KeyGenerator;
+                                            ^
+  symbol:   class KeyGenerator
+  location: package org.springframework.cache.interceptor
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:26: error: cannot find symbol
+import org.springframework.context.annotation.Configuration;
+                                             ^
+  symbol:   class Configuration
+  location: package org.springframework.context.annotation
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:27: error: cannot find symbol
+import org.springframework.context.annotation.ImportAware;
+                                             ^
+  symbol:   class ImportAware
+  location: package org.springframework.context.annotation
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:28: error: cannot find symbol
+import org.springframework.core.annotation.AnnotationAttributes;
+                                          ^
+  symbol:   class AnnotationAttributes
+  location: package org.springframework.core.annotation
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:29: error: cannot find symbol
+import org.springframework.core.type.AnnotationMetadata;
+                                    ^
+  symbol:   class AnnotationMetadata
+  location: package org.springframework.core.type
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:30: error: package org.springframework.util does not exist
+import org.springframework.util.CollectionUtils;
+                               ^
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:42: error: cannot find symbol
+public abstract class AbstractCachingConfiguration implements ImportAware {
+                                                              ^
+  symbol: class ImportAware
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:41: error: cannot find symbol
+@Configuration
+ ^
+  symbol: class Configuration
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:44: error: cannot find symbol
+	protected AnnotationAttributes enableCaching;
+	          ^
+  symbol:   class AnnotationAttributes
+  location: class AbstractCachingConfiguration
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:50: error: cannot find symbol
+	protected KeyGenerator keyGenerator;
+	          ^
+  symbol:   class KeyGenerator
+  location: class AbstractCachingConfiguration
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:52: error: cannot find symbol
+	protected CacheErrorHandler errorHandler;
+	          ^
+  symbol:   class CacheErrorHandler
+  location: class AbstractCachingConfiguration
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:56: error: cannot find symbol
+	public void setImportMetadata(AnnotationMetadata importMetadata) {
+	                              ^
+  symbol:   class AnnotationMetadata
+  location: class AbstractCachingConfiguration
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:66: error: cannot find symbol
+	void setConfigurers(Collection<CachingConfigurer> configurers) {
+	                               ^
+  symbol:   class CachingConfigurer
+  location: class AbstractCachingConfiguration
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:83: error: cannot find symbol
+	protected void useCachingConfigurer(CachingConfigurer config) {
+	                                    ^
+  symbol:   class CachingConfigurer
+  location: class AbstractCachingConfiguration
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[checking org.springframework.cache.annotation.AbstractCachingConfiguration]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:55: error: method does not override or implement a method from a supertype
+	@Override
+	^
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:58: error: cannot find symbol
+				importMetadata.getAnnotationAttributes(EnableCaching.class.getName(), false));
+				                                       ^
+  symbol:   class EnableCaching
+  location: class AbstractCachingConfiguration
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:57: error: cannot find symbol
+		this.enableCaching = AnnotationAttributes.fromMap(
+		                     ^
+  symbol:   variable AnnotationAttributes
+  location: class AbstractCachingConfiguration
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:67: error: cannot find symbol
+		if (CollectionUtils.isEmpty(configurers)) {
+		    ^
+  symbol:   variable CollectionUtils
+  location: class AbstractCachingConfiguration
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class)]]
+process_pre/test/spring-framework/AbstractCachingConfiguration.java:76: error: cannot find symbol
+		CachingConfigurer configurer = configurers.iterator().next();
+		^
+  symbol:   class CachingConfigurer
+  location: class AbstractCachingConfiguration
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class)]]
+[total 305ms]
+20 errors
+
+*** Infer needs a working compilation command to run.
+
+

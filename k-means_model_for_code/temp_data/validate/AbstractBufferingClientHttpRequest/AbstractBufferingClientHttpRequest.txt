@@ -1,0 +1,77 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.5e5846'
+*** Output:
+[parsing started RegularFileObject[process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java]]
+[parsing completed 33ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/nashorn.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jaccess.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/MRJToolkit.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class)]]
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:23: error: cannot find symbol
+import org.springframework.http.HttpHeaders;
+                               ^
+  symbol:   class HttpHeaders
+  location: package org.springframework.http
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:32: error: cannot find symbol
+abstract class AbstractBufferingClientHttpRequest extends AbstractClientHttpRequest {
+                                                          ^
+  symbol: class AbstractClientHttpRequest
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:38: error: cannot find symbol
+	protected OutputStream getBodyInternal(HttpHeaders headers) throws IOException {
+	                                       ^
+  symbol:   class HttpHeaders
+  location: class AbstractBufferingClientHttpRequest
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:43: error: cannot find symbol
+	protected ClientHttpResponse executeInternal(HttpHeaders headers) throws IOException {
+	                                             ^
+  symbol:   class HttpHeaders
+  location: class AbstractBufferingClientHttpRequest
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:43: error: cannot find symbol
+	protected ClientHttpResponse executeInternal(HttpHeaders headers) throws IOException {
+	          ^
+  symbol:   class ClientHttpResponse
+  location: class AbstractBufferingClientHttpRequest
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:59: error: cannot find symbol
+	protected abstract ClientHttpResponse executeInternal(HttpHeaders headers, byte[] bufferedOutput)
+	                                                      ^
+  symbol:   class HttpHeaders
+  location: class AbstractBufferingClientHttpRequest
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:59: error: cannot find symbol
+	protected abstract ClientHttpResponse executeInternal(HttpHeaders headers, byte[] bufferedOutput)
+	                   ^
+  symbol:   class ClientHttpResponse
+  location: class AbstractBufferingClientHttpRequest
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+[checking org.springframework.http.client.AbstractBufferingClientHttpRequest]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:37: error: method does not override or implement a method from a supertype
+	@Override
+	^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:42: error: method does not override or implement a method from a supertype
+	@Override
+	^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Flushable.class)]]
+process_pre/test/spring-framework/AbstractBufferingClientHttpRequest.java:48: error: cannot find symbol
+		ClientHttpResponse result = executeInternal(headers, bytes);
+		^
+  symbol:   class ClientHttpResponse
+  location: class AbstractBufferingClientHttpRequest
+[total 303ms]
+10 errors
+
+*** Infer needs a working compilation command to run.
+
+

@@ -1,0 +1,12 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.5b2853'
+*** Output:
+error: Class names, 'AbstractApplicationContext.txt', are only accepted if annotation processing is explicitly requested
+[total 13ms]
+1 error
+
+*** Infer needs a working compilation command to run.
+
+

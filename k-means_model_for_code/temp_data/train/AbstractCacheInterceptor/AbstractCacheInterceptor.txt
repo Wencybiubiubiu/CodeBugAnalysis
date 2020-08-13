@@ -1,0 +1,110 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.1c7e3f'
+*** Output:
+[parsing started RegularFileObject[process_pre/test/spring-framework/AbstractCacheInterceptor.java]]
+[parsing completed 33ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/nashorn.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jaccess.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/MRJToolkit.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)]]
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:23: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:24: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+[loading RegularFileObject[./org/springframework/cache/Cache.class]]
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:27: error: cannot find symbol
+import org.springframework.cache.interceptor.AbstractCacheInvoker;
+                                            ^
+  symbol:   class AbstractCacheInvoker
+  location: package org.springframework.cache.interceptor
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:28: error: cannot find symbol
+import org.springframework.cache.interceptor.CacheErrorHandler;
+                                            ^
+  symbol:   class CacheErrorHandler
+  location: package org.springframework.cache.interceptor
+[loading RegularFileObject[./org/springframework/cache/interceptor/CacheOperationInvocationContext.class]]
+[loading RegularFileObject[./org/springframework/cache/interceptor/CacheOperationInvoker.class]]
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:31: error: package org.springframework.util does not exist
+import org.springframework.util.CollectionUtils;
+                               ^
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:41: error: cannot find symbol
+		extends AbstractCacheInvoker implements Serializable {
+		        ^
+  symbol: class AbstractCacheInvoker
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class)]]
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:40: error: cannot find symbol
+abstract class AbstractCacheInterceptor<O extends AbstractJCacheOperation<A>, A extends Annotation>
+                                                  ^
+  symbol: class AbstractJCacheOperation
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:43: error: cannot find symbol
+	protected final Log logger = LogFactory.getLog(getClass());
+	                ^
+  symbol:   class Log
+  location: class AbstractCacheInterceptor<O,A>
+  where O,A are type-variables:
+    O declared in class AbstractCacheInterceptor
+    A extends Annotation declared in class AbstractCacheInterceptor
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:46: error: cannot find symbol
+	protected AbstractCacheInterceptor(CacheErrorHandler errorHandler) {
+	                                   ^
+  symbol:   class CacheErrorHandler
+  location: class AbstractCacheInterceptor<O,A>
+  where O,A are type-variables:
+    O declared in class AbstractCacheInterceptor
+    A extends Annotation declared in class AbstractCacheInterceptor
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+[checking org.springframework.cache.jcache.interceptor.AbstractCacheInterceptor]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:43: error: cannot find symbol
+	protected final Log logger = LogFactory.getLog(getClass());
+	                                               ^
+  symbol:   method getClass()
+  location: class AbstractCacheInterceptor<O,A>
+  where O,A are type-variables:
+    O declared in class AbstractCacheInterceptor
+    A extends Annotation declared in class AbstractCacheInterceptor
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:43: error: cannot find symbol
+	protected final Log logger = LogFactory.getLog(getClass());
+	                             ^
+  symbol:   variable LogFactory
+  location: class AbstractCacheInterceptor<O,A>
+  where O,A are type-variables:
+    O declared in class AbstractCacheInterceptor
+    A extends Annotation declared in class AbstractCacheInterceptor
+[loading RegularFileObject[./org/springframework/cache/interceptor/BasicOperation.class]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:64: error: reference to + is ambiguous
+			throw new IllegalStateException("Cache could not have been resolved for " + context.getOperation());
+			                                                                          ^
+  both method +(String,boolean) in <anonymous > and method +(String,<null>) in <anonymous > match
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+process_pre/test/spring-framework/AbstractCacheInterceptor.java:75: error: cannot find symbol
+		if (CollectionUtils.isEmpty(caches)) {
+		    ^
+  symbol:   variable CollectionUtils
+  location: class AbstractCacheInterceptor<O,A>
+  where O,A are type-variables:
+    O declared in class AbstractCacheInterceptor
+    A extends Annotation declared in class AbstractCacheInterceptor
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class)]]
+[total 329ms]
+13 errors
+
+*** Infer needs a working compilation command to run.
+
+

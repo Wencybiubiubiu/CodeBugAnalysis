@@ -1,0 +1,139 @@
+Capturing in javac mode...
+Usage Error: 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/var/folders/qj/4d9blcb52g31j5_8mfkkdz8c0000gn/T/args_.tmp.b8474d'
+*** Output:
+[parsing started RegularFileObject[process_pre/test/spring-framework/AbstractCacheOperationTests.java]]
+[parsing completed 33ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/nashorn.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/jaccess.jar,/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/MRJToolkit.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Method.class)]]
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:21: error: package javax.cache.annotation does not exist
+import javax.cache.annotation.CacheInvocationParameter;
+                             ^
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:22: error: package javax.cache.annotation does not exist
+import javax.cache.annotation.CacheMethodDetails;
+                             ^
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:24: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:26: error: cannot find symbol
+import org.springframework.cache.jcache.AbstractJCacheTests;
+                                       ^
+  symbol:   class AbstractJCacheTests
+  location: package org.springframework.cache.jcache
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:27: error: cannot find symbol
+import org.springframework.core.annotation.AnnotationUtils;
+                                          ^
+  symbol:   class AnnotationUtils
+  location: package org.springframework.core.annotation
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:28: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:29: error: package org.springframework.util does not exist
+import org.springframework.util.ReflectionUtils;
+                               ^
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:31: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:36: error: cannot find symbol
+public abstract class AbstractCacheOperationTests<O extends JCacheOperation<?>> extends AbstractJCacheTests {
+                                                                                        ^
+  symbol: class AbstractJCacheTests
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:36: error: cannot find symbol
+public abstract class AbstractCacheOperationTests<O extends JCacheOperation<?>> extends AbstractJCacheTests {
+                                                            ^
+  symbol: class JCacheOperation
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:38: error: cannot find symbol
+	protected final SampleObject sampleInstance = new SampleObject();
+	                ^
+  symbol:   class SampleObject
+  location: class AbstractCacheOperationTests<O>
+  where O is a type-variable:
+    O declared in class AbstractCacheOperationTests
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:55: error: cannot find symbol
+	protected void assertCacheInvocationParameter(CacheInvocationParameter actual, Class<?> targetType,
+	                                              ^
+  symbol:   class CacheInvocationParameter
+  location: class AbstractCacheOperationTests<O>
+  where O is a type-variable:
+    O declared in class AbstractCacheOperationTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:62: error: cannot find symbol
+	protected <A extends Annotation> CacheMethodDetails<A> create(Class<A> annotationType,
+	                                 ^
+  symbol:   class CacheMethodDetails
+  location: class AbstractCacheOperationTests<O>
+  where O is a type-variable:
+    O declared in class AbstractCacheOperationTests
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:43: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class AbstractCacheOperationTests<O>
+  where O is a type-variable:
+    O declared in class AbstractCacheOperationTests
+[checking org.springframework.cache.jcache.interceptor.AbstractCacheOperationTests]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:38: error: cannot find symbol
+	protected final SampleObject sampleInstance = new SampleObject();
+	                                                  ^
+  symbol:   class SampleObject
+  location: class AbstractCacheOperationTests<O>
+  where O is a type-variable:
+    O declared in class AbstractCacheOperationTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:65: error: cannot find symbol
+		Method method = ReflectionUtils.findMethod(targetType, methodName, parameterTypes);
+		                ^
+  symbol:   variable ReflectionUtils
+  location: class AbstractCacheOperationTests<O>
+  where O is a type-variable:
+    O declared in class AbstractCacheOperationTests
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:66: error: cannot find symbol
+		Assert.notNull(method, "requested method '" + methodName + "'does not exist");
+		^
+  symbol:   variable Assert
+  location: class AbstractCacheOperationTests<O>
+  where O is a type-variable:
+    O declared in class AbstractCacheOperationTests
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Executable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Member.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/GenericDeclaration.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/AnnotatedElement.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/AccessibleObject.class)]]
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:68: error: cannot find symbol
+		return new DefaultCacheMethodDetails<A>(method, cacheAnnotation, getCacheName(cacheAnnotation));
+		           ^
+  symbol:   class DefaultCacheMethodDetails
+  location: class AbstractCacheOperationTests<O>
+  where O is a type-variable:
+    O declared in class AbstractCacheOperationTests
+process_pre/test/spring-framework/AbstractCacheOperationTests.java:72: error: cannot find symbol
+		Object cacheName = AnnotationUtils.getValue(annotation, "cacheName");
+		                   ^
+  symbol:   variable AnnotationUtils
+  location: class AbstractCacheOperationTests<O>
+  where O is a type-variable:
+    O declared in class AbstractCacheOperationTests
+[total 342ms]
+19 errors
+
+*** Infer needs a working compilation command to run.
+
+
